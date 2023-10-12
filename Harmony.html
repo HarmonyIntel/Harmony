@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Startup Aeroespacial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+        .logo {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="logo" src="tu_logo.png" alt="Logo de Tu Startup Aeroespacial">
+        <h1>Harmony Intelligent</h1>
+    </header>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Acerca de Nosotros</a>
+        <a href="#">Servicios</a>
+        <a href="#">Opal</a>
+        <a href="#">Misiones origin</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <section>
+        <h2>Bienvenido a Harmony</h2>
+        <p>Somos la nueva era de la evolucion y el desarrollo Aeroespacial</p>
+        <img src="proyecto_aeroespacial.jpg" alt="Proyecciones" style="max-width: 100%; margin-top: 20px;">
+        <h3>Contacta con Nosotros</h3>
+        <form action="procesar_formulario.php" method="post">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required><br>
+            <input type="email" name="email" placeholder="Tu Correo Electrónico" required><br>
+            <textarea name="mensaje" placeholder="Tu Mensaje" rows="4" required></textarea><br>
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 Harmony. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
